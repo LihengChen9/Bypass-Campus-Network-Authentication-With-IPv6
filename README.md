@@ -48,6 +48,10 @@ echo "0" | sudo -S ssserver -s :: -k yourpassword -d start
 
 ![image](https://github.com/LihengChen9/Bypass-Campus-Network-Authentication-With-IPv6/blob/main/3.jpg)
 
+## 提醒
+
+PC端系统（Windows、ubuntu），大部分软件不走系统代理，需要你去软件独立的代理功能中设置。如果软件不走系统代理，并且不支持软件内设置代理功能，那么你可以尝试使用Proxifier工具。
+
 ## 路由器连校园网网口，怎么让舍友各自登录自己的校园网账号？
 
 路由器关闭DHCP，网线连接Wan口。重启。（细节有点忘了）
