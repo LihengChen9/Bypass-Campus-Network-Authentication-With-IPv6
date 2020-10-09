@@ -44,13 +44,13 @@ echo "0" | sudo -S ssserver -s :: -k yourpassword -d start
 
 ## 客户端
 
-输入你服务端的IPv6地址、ssserver密码、加密方式、端口。连上校园Wifi，不要登录校园网账号，直接使用SS、SSR、v2rayNG（Github上有）进行SS连接。
+输入你服务端的IPv6地址、ssserver密码、加密方式、端口。连上校园Wifi，不要登录校园网账号，直接使用SS、SSR、v2rayNG（Github上有）进行SS连接，注意SS设置全局模式。
 
 ![image](https://github.com/LihengChen9/Bypass-Campus-Network-Authentication-With-IPv6/blob/main/3.jpg)
 
-## 提醒
+### 提醒
 
-PC端系统（Windows、ubuntu），大部分软件不走系统代理，需要你去软件独立的代理功能中设置。如果软件不走系统代理，并且不支持软件内设置代理功能，那么你可以尝试使用Proxifier工具。
+PC端系统（Windows、ubuntu），大部分软件不走系统代理，需要你去软件独立的代理功能中设置（好在常用的浏览器支持使用系统代理或者独立的代理功能）。如果软件不走系统代理，并且不支持软件内设置代理功能，那么你可以尝试使用Proxifier工具。
 
 ## 路由器连校园网网口，怎么让舍友各自登录自己的校园网账号？
 
